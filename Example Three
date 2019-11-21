@@ -1,0 +1,40 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  
+
+  string myArray[5];
+  int i,option;
+
+  
+  for(i=0;i<5;i++) {
+      cout<<"Enter a name";
+      cin>>myArray[i];
+      
+  }
+      cout<<" what name would you like to change 1 to 5 ";
+      cin>>option;
+  
+      cout<<"what is the new name";
+      cin>>myArray[option- 1];
+  
+  for(i=0;i<5;i++) {
+      
+      cout<<myArray[i]<<"\n";
+  }
+
+
+
+  
+}
