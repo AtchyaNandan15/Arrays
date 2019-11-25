@@ -14,26 +14,15 @@ int main()
 {
   
 
-  int myArray[7];
+  int myArray[6];
   int i;
-  
-  //set a for loop backword
-  
-  for(i=0;i<10;i++) {
-      
-      myArray[i] = i - 1;
-      
-  }
-  
-  for(i=0;i<10;i++) {
-      
-      cout<<myArray[i]<<"\n";
-  }
-  
-}
-  
-  
   
 
   
+  for(i=5;i>-1;i--) {
+      myArray[i] = i+1;
+      cout<<myArray[i]<<"\n";
+  }
   
+  
+}
