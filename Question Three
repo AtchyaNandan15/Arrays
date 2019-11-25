@@ -14,19 +14,19 @@ int main()
 {
   
 
-  int myArray1[5];
-  int myArray2[5];
-  int myArray3[5];
-  int myArray4[5];
+  int myArray1[1];
+  int myArray2[2];
+  int myArray3[3];
+  int myArray4[4];
   int myArray5[5];
-  int myArray6[5];
-  int myArray7[5];
-  int myArray8[5];
-  int myArray9[5];
-  int myArray10[5];
+  int myArray6[6];
+  int myArray7[7];
+  int myArray8[8];
+  int myArray9[9];
+  int myArray10[10];
   
   int userNum;
-  int i;
+  int a,b,c,d,e,f,g,h,i,j,k;
   int randomNumber;
   
      
@@ -45,62 +45,63 @@ int main()
        
       }
         }
-  //change it to j
+
   if(randomNumber==2){
       for(i=0;i<6;i++) {
-       cin>> myArray2[i];
+      myArray2[i] = i+1;
       }  
   }
 
   if(randomNumber==3){
       for(i=0;i<6;i++) {
-       cin>> myArray3[i];
+      myArray3[i] = i+1;
       }  
   }
   
     if(randomNumber==4){
       for(i=0;i<6;i++) {
-       cin>> myArray4[i];
+       myArray4[i] = i+1;
       }  
   }
 
   if(randomNumber==5){
       for(i=0;i<6;i++) {
-       cin>> myArray5[i];
+        myArray5[i] = i+1;
       }  
   }
 
   if(randomNumber==6){
       for(i=0;i<6;i++) {
-       cin>> myArray6[i];
+       myArray6[i] = i+1;
       }  
   }
 
   if(randomNumber==7){
       for(i=0;i<6;i++) {
-       cin>> myArray7[i];
+      myArray7[i] = i+1;
       }  
   }
   
     if(randomNumber==8){
       for(i=0;i<6;i++) {
-       cin>> myArray8[i];
+    myArray8[i] = i+1;
       }  
   }
 
   if(randomNumber==9){
       for(i=0;i<6;i++) {
-       cin>> myArray9[i];
+        myArray9[i] = i+1;
       }  
   }
   
     if(randomNumber==10){
       for(i=0;i<6;i++) {
-       cin>> myArray10[i];
+       myArray1[i] = i+1;
       }  
   }
 
-
+cout<<"***************";
+cout<<myArray1[i];
 
 
 
