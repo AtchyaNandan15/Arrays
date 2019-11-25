@@ -1,0 +1,112 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  
+
+  int myArray1[5];
+  int myArray2[5];
+  int myArray3[5];
+  int myArray4[5];
+  int myArray5[5];
+  int myArray6[5];
+  int myArray7[5];
+  int myArray8[5];
+  int myArray9[5];
+  int myArray10[5];
+  
+  int userNum;
+  int i;
+  int randomNumber;
+  
+     
+     srand(time(NULL));
+     
+     
+        for(i=0;i<1000;i++){
+               randomNumber =rand()% 10 + 1;
+               cout<<randomNumber<<"\n";
+        }
+        
+      if(randomNumber==1) {
+  
+      for(i=0;i<6;i++) {
+       myArray1[i] = i+1;
+       
+      }
+        }
+  //change it to j
+  if(randomNumber==2){
+      for(i=0;i<6;i++) {
+       cin>> myArray2[i];
+      }  
+  }
+
+  if(randomNumber==3){
+      for(i=0;i<6;i++) {
+       cin>> myArray3[i];
+      }  
+  }
+  
+    if(randomNumber==4){
+      for(i=0;i<6;i++) {
+       cin>> myArray4[i];
+      }  
+  }
+
+  if(randomNumber==5){
+      for(i=0;i<6;i++) {
+       cin>> myArray5[i];
+      }  
+  }
+
+  if(randomNumber==6){
+      for(i=0;i<6;i++) {
+       cin>> myArray6[i];
+      }  
+  }
+
+  if(randomNumber==7){
+      for(i=0;i<6;i++) {
+       cin>> myArray7[i];
+      }  
+  }
+  
+    if(randomNumber==8){
+      for(i=0;i<6;i++) {
+       cin>> myArray8[i];
+      }  
+  }
+
+  if(randomNumber==9){
+      for(i=0;i<6;i++) {
+       cin>> myArray9[i];
+      }  
+  }
+  
+    if(randomNumber==10){
+      for(i=0;i<6;i++) {
+       cin>> myArray10[i];
+      }  
+  }
+
+
+
+
+
+
+
+
+  
+}
+ 
