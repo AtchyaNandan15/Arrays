@@ -14,100 +14,48 @@ int main()
 {
   
 
-  int myArray1[1];
-  int myArray2[2];
-  int myArray3[3];
-  int myArray4[4];
-  int myArray5[5];
-  int myArray6[6];
-  int myArray7[7];
-  int myArray8[8];
-  int myArray9[9];
-  int myArray10[10];
+  int myArray[10]={0,1,2,3,4,5,6,7,8,9};
+  
   
   int userNum;
-  int a,b,c,d,e,f,g,h,i,j,k;
-  int randomNumber;
+  int random;
+  int i;
+  int total1=0;
   
      
      srand(time(NULL));
      
      
         for(i=0;i<1000;i++){
-               randomNumber =rand()% 10 + 1;
-               cout<<randomNumber<<"\n";
+               random=rand()% 10;
+              myArray[random]++;
         }
         
-      if(randomNumber==1) {
-  
-      for(i=0;i<6;i++) {
-       myArray1[i] = i+1;
-       
-      }
-        }
+      
+   cout<<"*********************\n";
+      for(i=0;i<10;i++) {
+      
+      cout<<"\n"<<myArray[i];
+     
+          }
+          
+             cout<<"*********************\n";
+     
+     cout<<myArray[1];
+      
+      
+    
+      
 
-  if(randomNumber==2){
-      for(i=0;i<6;i++) {
-      myArray2[i] = i+1;
-      }  
-  }
-
-  if(randomNumber==3){
-      for(i=0;i<6;i++) {
-      myArray3[i] = i+1;
-      }  
-  }
-  
-    if(randomNumber==4){
-      for(i=0;i<6;i++) {
-       myArray4[i] = i+1;
-      }  
-  }
-
-  if(randomNumber==5){
-      for(i=0;i<6;i++) {
-        myArray5[i] = i+1;
-      }  
-  }
-
-  if(randomNumber==6){
-      for(i=0;i<6;i++) {
-       myArray6[i] = i+1;
-      }  
-  }
-
-  if(randomNumber==7){
-      for(i=0;i<6;i++) {
-      myArray7[i] = i+1;
-      }  
-  }
-  
-    if(randomNumber==8){
-      for(i=0;i<6;i++) {
-    myArray8[i] = i+1;
-      }  
-  }
-
-  if(randomNumber==9){
-      for(i=0;i<6;i++) {
-        myArray9[i] = i+1;
-      }  
-  }
-  
-    if(randomNumber==10){
-      for(i=0;i<6;i++) {
-       myArray1[i] = i+1;
-      }  
-  }
-
-cout<<"***************";
-cout<<myArray1[i];
-
-
-
-
-
-
-  
+    
+    
 }
+      
+      
+      
+
+       
+
+
+  
  
