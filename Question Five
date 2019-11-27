@@ -1,0 +1,50 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int array[20]={1, 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
+    int total=0, total2=1,total3=0;
+    int i;
+    int numbers;
+    int final;
+    
+    for(i=0;i<19;i++){
+        
+        array[i];
+        
+    }
+    
+ 
+    for(i=0;i<19;i++){
+        
+       total = array[i] + array[i];
+       total2= array[i] + total;
+       total3= total + total2;
+        
+        
+       //total = array[i]+array[i];
+       //total2= total2 + total;
+       //total3= total3 + total2;
+        
+       cout<<"\n"<<total3;
+        
+    }
+    
+  
+
+}
+
+
+
+
