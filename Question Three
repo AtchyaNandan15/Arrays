@@ -35,13 +35,23 @@ int main()
    cout<<"*********************\n";
       for(i=0;i<10;i++) {
       
-      cout<<"\n"<<myArray[i];
+      myArray[i];
      
           }
           
              cout<<"*********************\n";
      
-     cout<<myArray[1];
+     cout<<"\n One: "<<myArray[0];
+     cout<<"\n Two: "<<myArray[1];
+     cout<<"\n Three: "<<myArray[2];
+     cout<<"\n Four: "<<myArray[3];
+     cout<<"\n Five: "<<myArray[4];
+     cout<<"\n six: "<<myArray[5];
+     cout<<"\n seven: "<<myArray[6];
+     cout<<"\n eight: "<<myArray[7];
+     cout<<"\n nine: "<<myArray[8];
+     cout<<"\n ten: "<<myArray[9];
+
       
       
     
