@@ -47,7 +47,7 @@ int main()
      cout<<"\n Four: "<<myArray[3];
      cout<<"\n Five: "<<myArray[4];
      cout<<"\n six: "<<myArray[5];
-     cout<<"\n seven: "<<myArray[6];
+     cout<<"\n seven: "<<myArray[6]; 
      cout<<"\n eight: "<<myArray[7];
      cout<<"\n nine: "<<myArray[8];
      cout<<"\n ten: "<<myArray[9];
