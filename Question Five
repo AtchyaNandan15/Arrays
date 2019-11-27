@@ -19,25 +19,18 @@ int main()
     int numbers;
     int final;
     
-    for(i=0;i<19;i++){
+
+ 
+    for(i=0;i<20;i++){
         
         array[i];
+       array[i]= total + total2;
+      total2=total;
+      total = array[i];
+      cout<<"\n"<<array[i];
+
         
-    }
-    
- 
-    for(i=0;i<19;i++){
-        
-       total = array[i] + array[i];
-       total2= array[i] + total;
-       total3= total + total2;
-        
-        
-       //total = array[i]+array[i];
-       //total2= total2 + total;
-       //total3= total3 + total2;
-        
-       cout<<"\n"<<total3;
+
         
     }
     
