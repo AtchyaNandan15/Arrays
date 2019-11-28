@@ -1,10 +1,17 @@
-/******************************************************************************
+/********************************************************************************************************************
+*  Atchya Nandan                                                                                       
+*  Date Novmeber 28rd  2019                                                                            
+*  Program: Dev c++ 5.11                                                                               
+*  Purpose: Learn how to use string manipulation                                                      
+* ---------------------------------------------------------------------                                
+* Date Dictionary:  int myArray.....................................counts the number of numbers
+                    int random..........................................the random generator
+                    int i.....................................variable for the for loop
+                    int total1.....................................coutning the total amount
+        
+                
 
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
+********************************************************************************************************************/
 
 #include <iostream>
 
@@ -39,7 +46,7 @@ int main()
      
           }
           
-             cout<<"*********************\n";
+   cout<<"*********************\n";
      
      cout<<"\n One: "<<myArray[0];
      cout<<"\n Two: "<<myArray[1];
@@ -51,21 +58,17 @@ int main()
      cout<<"\n eight: "<<myArray[7];
      cout<<"\n nine: "<<myArray[8];
      cout<<"\n ten: "<<myArray[9];
+    
 
       
+     
+      cout<<"\n\nI think this generator is effective because it ouputs all the random numbers.\n";
+      cout<<"Each time the numbers are different. A thousand numbers can be hadnled by 1000 numbers\n";
+   
       
-    
+      cout<<"I think if their were 1000000 numbers using a random number generator would still be effective. \n";
+      cout<<"The numbers are chose equally and very fair\n";
       
-
-    
-    
 }
-      
-      
-      
 
        
-
-
-   
- 
