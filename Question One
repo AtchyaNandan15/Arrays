@@ -17,16 +17,17 @@ int main()
   int myArray[7];
   int i;
   
-  for(i=0;i<6;i++) {
-      
-      myArray[i] = i+1;
+  for(i=0;i<5;i++) {
+      cout<<"Enter a number";
+      cin>>myArray[i];
       
   }
   
-  for(i=0;i<6;i++) {
+  for(i=0;i<5;i++) {
       
       cout<<myArray[i]<<"\n";
   }
   
   
-} 
+}
+ 
