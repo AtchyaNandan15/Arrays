@@ -19,27 +19,19 @@ int main()
     
     int array[20]={0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19};
     int i;
+            cout<<"\t\t\tX       |      Y\n\t"; 
+            cout<<"\t\t-----------------";
+
     
-    
-    for(i=0;i<19;i++){
+    for(i=0;i<=19;i++){
         
         array[i];
-        
-    }
     
-     cout<<"\t\t\t  X \n";
-    for(i=0;i<19;i++){
-        
-       
-        
-        cout<<"\t\t" <<array[i]<< " \n\t";
+      cout<<"\n\t\t\t"<<array[i] ; cout<<"\t|"; cout<<"\t"<<array[i]*array[i]<<"\t";
+
     }
-     cout<<"\t\t\t\t\t\t  Y \n";
-    for(i=0;i<19;i++){
-        
-        cout<<"\t\t\t\t"<<array[i]*array[i]<<"\n";
-        
-    }
+     
+
     
     
     
