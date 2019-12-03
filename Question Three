@@ -28,25 +28,23 @@ int main()
   int random;
   int i;
   int total1=0;
+  int therandom;
   
      
      srand(time(NULL));
      
      
         for(i=0;i<1000;i++){
+              
                random=rand()% 10;
+             
               myArray[random]++;
+           therandom= therandom + random;
+        
+              
         }
         
       
-   cout<<"*********************\n";
-      for(i=0;i<10;i++) {
-      
-      myArray[i];
-     
-          }
-          
-   cout<<"*********************\n";
      
      cout<<"\n One: "<<myArray[0];
      cout<<"\n Two: "<<myArray[1];
@@ -58,7 +56,8 @@ int main()
      cout<<"\n eight: "<<myArray[7];
      cout<<"\n nine: "<<myArray[8];
      cout<<"\n ten: "<<myArray[9];
-    
+     
+     cout<<"\n\n"<<therandom<<"\n\n";
 
       
      
