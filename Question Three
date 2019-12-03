@@ -1,17 +1,10 @@
-/********************************************************************************************************************
-*  Atchya Nandan                                                                                       
-*  Date Novmeber 28rd  2019                                                                            
-*  Program: Dev c++ 5.11                                                                               
-*  Purpose: Learn how to use arrays                                                     
-* ---------------------------------------------------------------------                                
-* Date Dictionary:  int myArray.....................................counts the number of numbers
-                    int random..........................................the random generator
-                    int i.....................................variable for the for loop
-                    int total1.....................................coutning the total amount
-        
-                
+/******************************************************************************
 
-********************************************************************************************************************/
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
 
 #include <iostream>
 
@@ -19,55 +12,57 @@ using namespace std;
 
 int main()
 {
-  
 
-  int myArray[10]={0,1,2,3,4,5,6,7,8,9};
-  
-  
-  int userNum;
-  int random;
-  int i;
-  int total1=0;
-  int therandom;
-  
-     
+ string province;
+ string capitals;
+ string places [13][13]={{" Alberta"," British Columbia"," Manitoba "," New Brunswick ", " Newfoundland and Labrador "," Northwest Territories ", " Nova Scotia ", " Nunavut "," Ontario ", " Prince Edward Island ", " Quebec ", " Saskatchewan ", " Yukon "},{" Edmonton "," Victoria "," Winnipeg "," Fredericton "," St. John’s "," Yellowknife "," Halifax "," Iqaluit "," Toronto "," Charlottetown "," Quebec "," Regina "," Whitehorse "}};                                                               
+ int i;
+ int w;
+ int j;
+ int len;
+ int random;
+ int random2;
+ 
+    
      srand(time(NULL));
-     
-     
-        for(i=0;i<1000;i++){
               
-               random=rand()% 10;
+    random=rand()% 13;
+    random2=rand()% 13;
              
-              myArray[random]++;
-           therandom= therandom + random;
         
-              
-        }
-        
-      
-     
-     cout<<"\n One: "<<myArray[0];
-     cout<<"\n Two: "<<myArray[1];
-     cout<<"\n Three: "<<myArray[2];
-     cout<<"\n Four: "<<myArray[3];
-     cout<<"\n Five: "<<myArray[4];
-     cout<<"\n six: "<<myArray[5];
-     cout<<"\n seven: "<<myArray[6]; 
-     cout<<"\n eight: "<<myArray[7];
-     cout<<"\n nine: "<<myArray[8];
-     cout<<"\n ten: "<<myArray[9];
-     
-     cout<<"\n\n"<<therandom<<"\n\n";
 
-      
-     
-      cout<<"\n\nI think this generator is effective because it ouputs all the random numbers.\n";
-      cout<<"Each time the numbers are different. A thousand numbers can be hadnled by 1000 numbers\n";
-   
-      
-      cout<<"I think if their were 1000000 numbers using a random number generator would still be effective. \n";
-      cout<<"The numbers are chose equally and very fair\n";
-      
-}
 
+  for(i=0;i<13;i++) {
+ 
+
+      for(w=0;w<13;w++){
+
+     places[i][w];
+          
+      }
        
+        
+  
+
+  
+  }
+
+   cout<<"Enter the capital of "; 
+   cout<<places[random2][random];
+   cin>>places[1][random];
+     
+     
+     if(places[1][random]=="hello") {
+     
+     cout<<" You are correct ";
+ //cout<<places[1][random];
+
+     }
+ else {
+     cout<<" You are wrong ";
+ }
+    
+    
+}
+ 
+
