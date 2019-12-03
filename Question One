@@ -19,8 +19,9 @@ int main()
 {
   
 
-  int myArray[7];
+  int myArray[4];
   int i;
+  int atchya;
   
   for(i=0;i<5;i++) {
       cout<<"Enter a number";
@@ -29,10 +30,15 @@ int main()
   }
   
   for(i=0;i<5;i++) {
-      
-      cout<<myArray[i]<<"\n";
+       
+       atchya = myArray[i] + atchya;
+       cout<<myArray[i]<<"\n";
+       
+       
+     
   }
-  
+ 
+  cout<<atchya;
   
 }
  
